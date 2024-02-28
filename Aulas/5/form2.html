@@ -23,7 +23,7 @@
             <input type="url" name="url" id="url">
         </p>
         <p>
-            <label for="numero">Nunero</label>
+            <label for="numero">Número</label>
             <input type="number" name="numero" id="numero" min="0" max="10" step="2">
         </p>
         <p>
@@ -50,7 +50,27 @@
             <label for="datahora">DataHora</label>
             <input type="datetime-local" name="datahora" id="datahora">
         </p>
+        <label for="hidden">Hidden</label>
+        <input type="hidden" name="hidden" id="hidden">
+        <p>
+          <label for="senha">Senha</label>
+          <input type="password" name="senha" id="senha">
+        </p>
+        <p>
+          <label for="arquivo">Arquivo</label>
+          <input type="file" name="arquivo" id="arquivo">
+        </p>
+
         <input type="submit" value="Enviar Dados">
+        <input type="reset" value="Limpar Dados">
+        <button type="button" onclick="mensagem()">Enviar dados</button>
+        <input type="image" src="Sources/Button_Icon_Red.svg.png" alt="butão" width="250">
     </form>
+
+    <script>
+      function mensagem(){
+        alert("Dados Enviados")
+      }
+    </script>
 </body>
 </html>
