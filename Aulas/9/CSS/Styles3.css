@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1{
+  font-style: italic;
+  font-family: "Montserrat", sans-serif;
+}
+
+p{
+  font-variant:small-caps;
+  font-weight:bold;
+  font-size: 24px;
+  line-height:40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serifc;
+}
+
+.paragrafo2{
+  direction: rtl;
+}
+.paragrafo3{
+  text-align: justify;
+  text-decoration: underline;
+}
+a{
+  text-decoration: none;
+}

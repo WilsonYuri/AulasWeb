@@ -1,0 +1,2 @@
+CSS é utilizado para fazer o estilo da página HTML.
+Ele tem vários usos desde mudar a cor do tetxo para estilizar em site de forma que melhore a legibilidade de seu conteúdo

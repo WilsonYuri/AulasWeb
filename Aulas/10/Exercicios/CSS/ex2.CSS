@@ -1,0 +1,23 @@
+li{
+  display: inline;
+}
+
+body{
+  background: darkslategray;
+  color: white;
+}
+
+a{
+  color: lightseagreen;
+  text-align: center;
+  border: solid 5px black;
+
+}
+P{
+  marign: 10px 50px;
+  padding: 10px 2px;
+}
+input{
+  margin: 10px 20px;
+}
+
