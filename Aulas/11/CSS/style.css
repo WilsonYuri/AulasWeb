@@ -1,0 +1,48 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+span{
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+
+div{
+  width: 300px;
+  height: 300px;
+  border: solid 1px black;
+}
+
+.um{
+  background-color: red;
+}
+
+.dois{
+  background-color: green;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.tres{
+  background-color: cadetblue;
+}
+
+nav{
+  background-color: oldlace;
+}
+ul{
+  list-style-type: none;
+}
+ul li{
+  display: inline;
+  margin-right: 10px;
+}
+
+ul li a{
+  color: lightslategray;
+  text-decoration: none;
+  text-transform: capitalize;
+}
