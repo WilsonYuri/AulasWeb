@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ex4</title>
+</head>
+<body>
+  <h1>
+    Exercício 4
+  </h1>
+  <script>
+    var salario = parseFloat(prompt("Digite o salário"))
+
+    if(salario <= 420){
+      var des = 0.08
+      var res = salario*des
+      document.write("O desconto será " + res)
+      document.write("<br>Seu desconto é de 8%")
+    }
+    else if (salario > 420 && salario <= 1350){
+      var des = 0.09
+      var res = salario*des
+      document.write("O desconto será " + res)
+      document.write("<br>Seu desconto é de 9%")
+    }
+    else{
+      var des = 0.1
+      var res = salario*des
+      document.write("O desconto será " + res)
+      document.write("<br>Seu desconto é de 10%")
+    }
+  </script>
+</body>
+</html>

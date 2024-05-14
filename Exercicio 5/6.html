@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ex5</title>
+</head>
+<body>
+  <h1>
+    Exercício 5
+  </h1>
+  <script>
+    var preEta = parseFloat(prompt("Digite o preço do etanol"))
+    var preGas = parseFloat(prompt("Digite o preço da gasolina"))
+
+    var preRel = preEta / preGas;
+
+    if (preRel <= 0.7) {
+        console.log("É melhor abastecer com etanol.");
+    } 
+    else {
+        console.log("É melhor abastecer com gasolina.");
+    }
+
+  </script>
+</body>
+</html>

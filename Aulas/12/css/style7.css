@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  color: blue;
+}
+
+p[title]{
+  color: red;
+}
+a{
+  color: green;
+}
+
+a:hover{
+  color:greenyellow
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>
+    Exercício 3
+  </h1>
+  <p id="A"></p>
+  <p id="B"></p>
+  <script>
+    var A = parseInt(prompt("Digite o valor de A"))
+    var B = parseInt(prompt("Digite o valor de B"))
+
+    var temp = A
+    var A = B
+    var B = temp
+
+    /*soma*/
+    
+    document.getElementById("A").innerText = "O valor de A após a troca é "+ A
+    document.getElementById("B").innerText = "O valor de B após a troca é "+ B
+    
+  </script>
+</body>
+</html>

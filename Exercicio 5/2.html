@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ex2</title>
+</head>
+<body>
+  <h1>
+    Exercício 2
+  </h1>
+  <script>
+    function FazerConta(op, num1, num2){
+      if(op =="+"){
+        var result = num1 + num2
+        document.write("O resultado é " + result)
+      }
+      else if (op == "-"){
+        var result = num1 - num2
+        document.write("O resultado é " + result)
+      }
+      else if (op == "/"){
+        var result = num1 / num2
+        document.write("O resultado é " + result)
+      }
+      else if (op == "*"){
+        var result = num1 * num2
+        document.write("O resultado é " + result)
+      }
+      else{
+         window.alert("Digite um operador compativel com o programa!")
+      }
+    }
+    
+    var num1 = parseInt(prompt("Digite um numero"));
+    var op = prompt("Digite a operação(+,-,/ ou *)");
+    var num2 = parseInt(prompt("Digite outro numero"));
+
+    FazerConta(op, num1, num2)
+
+    
+  </script>
+</body>
+</html>

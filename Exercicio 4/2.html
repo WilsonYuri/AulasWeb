@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>
+    Exercício 2
+  </h1>
+  <p id="sec"></p>
+  <script>
+    var hora = 3600 * parseInt(prompt("Digite as hora"))
+    var minutos = 60 *parseInt(prompt("Digite os minutos"))
+    var segundos = parseInt(prompt("Digite os segundos"))
+
+    /*soma*/
+    let total = hora + minutos + segundos
+    document.getElementById("sec").innerText = "O total de segundos é "+ total
+  </script>
+</body>
+</html>
