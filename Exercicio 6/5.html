@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Exercício 5</h1>
+  <script>
+    var option;
+    
+    do {
+      option = parseInt(prompt("Escolha uma opção:\n1 - Somar\n2 - Subtrair\n3 - Multiplicar\n4 - Dividir\n5 - Sair"));
+      
+      if (option >= 1 && option <= 4) {
+        var num1 = parseFloat(prompt("Digite o primeiro número:"));
+        var num2 = parseFloat(prompt("Digite o segundo número:"));
+        
+        switch (option) {
+          case 1:
+            document.write("Resultado da soma: " + (num1 + num2) + "<br>");
+            break;
+          case 2:
+            document.write("Resultado da subtração: " + (num1 - num2) + "<br>");
+            break;
+          case 3:
+            document.write("Resultado da multiplicação: " + (num1 * num2) + "<br>");
+            break;
+          case 4:
+            if (num2 !== 0) {
+              document.write("Resultado da divisão: " + (num1 / num2) + "<br>");
+            } else {
+              document.write("Não é possível dividir por zero.<br>");
+            }
+            break;
+        }
+      } else if (option !== 5) {
+        document.write("Opção inválida!<br>");
+      }
+    } while (option !== 5);
+  </script>
+</body>
+</html>

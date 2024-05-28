@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Exercício 1</h1>
+  <script>
+    var num = parseInt(prompt("Digite um numero"));
+
+    if (isNaN(num) || num <= 0) 
+    {
+      document.write("Digite um número valido e positivo");
+    } 
+    else 
+    {
+      var soma = 0;
+      for (var i = 1; i <= num; i++) 
+      {
+        soma += i;
+      }
+      document.write("A soma de 1 até " + num + " é " + soma);
+    }
+  </script>
+</body>
+</html>

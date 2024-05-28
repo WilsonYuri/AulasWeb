@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Exercicio 7</h1>
+  <script>
+    var num = parseInt(prompt("Digite um numero"));
+    var primo = true;
+
+    if (num <= 1) {
+      primo = false;
+    } else {
+      for (var i = 2; i <= Math.sqrt(num); i++) {
+        if (num % i === 0) {
+          primo = false;
+          break;
+        }
+      }
+    }
+
+    if (primo) {
+      document.write(num + " é um numero primo.");
+    } else {
+      document.write(num + " não é um numero primo.");
+    }
+  </script>
+</body>
+</html>

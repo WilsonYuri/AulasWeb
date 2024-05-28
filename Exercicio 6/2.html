@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Exercício 2</h1>
+  <script>
+    function pegarNum(ab){
+      if(ab === "A") {
+        var res = parseInt(prompt("Digite o Valor de A"), 10);
+        return res;
+      } 
+      
+      else if (ab === "B") {
+        var res = parseInt(prompt("Digite o Valor de B"), 10);
+        return res;
+      } 
+
+      else {
+        window.alert("Digite uma letra que possamos perguntar ao usuario");
+        return null; 
+      }
+    }
+
+    var a = pegarNum("A");
+    var b = pegarNum("B");
+
+    while (a === b) {
+      window.alert("Não digite o mesmo numero");
+      a = pegarNum("A");
+      b = pegarNum("B");
+    }
+
+    var soma;
+    if (a > b) {
+      soma = a - b;
+    } else {
+      soma = b - a;
+    }
+    
+    document.write(soma);
+
+  </script>
+</body>
+</html>
