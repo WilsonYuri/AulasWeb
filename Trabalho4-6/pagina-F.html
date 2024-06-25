@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/pagina-F.css">
+    <title>Meu Site</title>
+</head>
+<body>
+    <div class="container">
+        <div id="header">
+            <a href="../Trabalho4-6/pagina-W.html">PedraPapelTesoura</a>
+            <h1>alterar cor</h1>
+        </div>
+        <div id="content">
+            <p id="paragrafo">Clique no botão para alterar a cor de fundo!</p>
+            <button id="botao">Clique aqui</button>
+        </div>
+    </div>
+    <script>
+        document.getElementById('botao').addEventListener('click', function() {
+            var cor = '#' + Math.floor(Math.random()*16777215).toString(16);
+            document.body.style.backgroundColor = cor;
+        });
+    </script>
+</body>
+</html>
