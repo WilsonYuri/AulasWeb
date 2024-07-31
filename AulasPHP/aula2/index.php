@@ -27,13 +27,36 @@
     echo $i . "<br>";
   }
   */
-  for ($i = 0; $i < 10; $i++) {
-    echo $i . "<br>";
-    if($i == 5){
-      break;
+  /*
+    for ($i = 0; $i < 10; $i++) {
+      echo $i . "<br>";
+      if($i == 5){
+        break;
+      }
     }
+  */
+  /*
+  for ($i = 0; $i < 10; $i++) {
+    if($i == 5){
+      continue;
+    }
+    echo $i . "<br>";
+  }
+  */
+  /*
+  $nomes = Array("Ana", "Carlos", "Daniela", "Marcos");
+
+  foreach($nomes as $nome) {
+    echo $nome . "<br>";
   }
 
+  for($i; $i <= 3; $i++){
+    echo $nomes[i] . "<br>";
+  }
+  */
+  function message() {
+    echo "viado";
+  }
   ?>
 </body>
 </html>
